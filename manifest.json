@@ -1,0 +1,22 @@
+{
+  "description": "Affiche la température à partir d'une station météo autonome", 
+  "version": "1.0",
+  "name": "TSE_STMA",
+  "author":"Cazeho",
+  "manifest_version": 2,
+  "background": {
+    "page": "src/background/background.html",
+    "persistent": true
+  },
+   "icons": {
+    "16": "icons/tse_16.png",
+    "48": "icons/tse_48.png",
+    "128": "icons/tse_128.png"
+  },
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com https://*.firebaseio.com; object-src 'self'",
+  "browser_action": {
+    "default_icon": "icons/tse_128.png",
+    "default_title": "browser action",
+    "default_popup": "src/index/index.html"
+  }
+}
