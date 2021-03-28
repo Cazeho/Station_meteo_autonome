@@ -32,7 +32,7 @@ https://github.com/xreef/EByte_LoRa_E22_Series_Library/
     Add to favorites
 </button>
 
-
+<style>
 .styled {
     border: 0;
     line-height: 2.5;
@@ -59,3 +59,4 @@ https://github.com/xreef/EByte_LoRa_E22_Series_Library/
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+</style>
