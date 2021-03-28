@@ -27,4 +27,7 @@ https://github.com/xreef/EByte_LoRa_E22_Series_Library/
 </form>
 
 
-<button>hello</button>
+<button class="favorite styled"
+        type="button">
+    Add to favorites
+</button>
