@@ -15,7 +15,7 @@ https://github.com/xreef/EByte_LoRa_E22_Series_Library/
 
 ![](https://img.shields.io/badge/T%C3%A9l%C3%A9charger-Derni%C3%A8re%20version-brightgreen?style=for-the-badge) https://chrome.google.com/webstore/search/tse_stma
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RGQ8NSYPA59FL)
+
 
 
 <!-- Sample of code generated --> 
