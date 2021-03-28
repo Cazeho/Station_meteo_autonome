@@ -17,3 +17,5 @@ https://github.com/xreef/EByte_LoRa_E22_Series_Library/
 
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/Cazeho/Station_meteo_autonome/archive/master.zip" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download Cazeho/Station_meteo_autonome on GitHub">Download</a>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
