@@ -11,7 +11,7 @@ https://github.com/xreef/EByte_LoRa_E22_Series_Library/
 
 ![tse](https://user-images.githubusercontent.com/58745332/112767799-022cba80-9019-11eb-8ca1-2111faa1d77a.PNG)
 
-![](https://img.shields.io/github/manifest-json/v/Cazeho/Station_meteo_autonome) ![](https://img.shields.io/badge/Compatible%20-Google%20Chrome%20v86.X-yellow)  ![](https://img.shields.io/badge/Compatible%20-Brave%20v1.X-orange) ![](https://img.shields.io/badge/Compatible%20-Opera%20v75.X-red) ![](https://img.shields.io/badge/Compatible%20-Edge/IE%20v89.X-red)
+![](https://img.shields.io/github/manifest-json/v/Cazeho/Station_meteo_autonome) ![](https://img.shields.io/badge/Compatible%20-Google%20Chrome%20v86.X-yellow)  ![](https://img.shields.io/badge/Compatible%20-Brave%20v1.X-orange) ![](https://img.shields.io/badge/Compatible%20-Opera%20v75.X-red) ![](https://img.shields.io/badge/Compatible%20-Edge/IE%20v89.X-blue)
 
 
 
