@@ -13,3 +13,15 @@ https://www.youtube.com/watch?v=YD_exb9aPZU
 https://nginx.org/en/download.html
 
 https://nginx.org/en/linux_packages.html
+
+https://medium.com/swlh/deploying-a-flask-app-with-nginx-unit-a91ce37fcc18
+
+https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-20-04-fr
+
+https://sinaru.com/2020/07/10/serving-flask-app-with-nginx/
+
+https://phoenixnap.com/kb/install-ssl-certificate-nginx
+
+https://docs.ovh.com/fr/hosting/passer-site-internet-https-ssl/#en-pratique
+
+https://www.ssls.com/knowledgebase/how-to-install-an-ssl-certificate-on-a-nginx-server/
