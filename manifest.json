@@ -1,6 +1,6 @@
 {
   "description": "Affiche la température à partir d'une station météo autonome", 
-  "version": "1.0",
+  "version": "1.1",
   "name": "TSE_STMA",
   "author":"Cazeho",
   "manifest_version": 2,
