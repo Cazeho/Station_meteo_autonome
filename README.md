@@ -6,4 +6,4 @@
 <br>
 
 
-![nginx](https://user-images.githubusercontent.com/58745332/113601810-1c325280-9642-11eb-9d0e-17a994b530d6.png)
+![nginx2](https://user-images.githubusercontent.com/58745332/113601935-47b53d00-9642-11eb-91cb-0e8c8095e73d.png)
