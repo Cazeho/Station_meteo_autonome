@@ -30,7 +30,8 @@ void setup() {
 }
  
 void loop() {
-
+  mySerial.println("Hello, world?");
+  delay(500);
   if (mySerial.available()) {
     Serial.write(mySerial.read());
   }
