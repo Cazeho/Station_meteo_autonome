@@ -17,7 +17,7 @@
  
 #include <SoftwareSerial.h>
  
-SoftwareSerial mySerial(D5, D4); // Arduino RX --> e22 TX - Arduino TX --> e22 RX
+SoftwareSerial mySerial(4, 5); // Arduino RX --> e22 TX - Arduino TX --> e22 RX
  
 void setup() {
   Serial.begin(9600);
@@ -30,10 +30,12 @@ void setup() {
 }
  
 void loop() {
+
   if (mySerial.available()) {
     Serial.write(mySerial.read());
   }
   if (Serial.available()) {
     mySerial.write(Serial.read());
   }
+
 }
