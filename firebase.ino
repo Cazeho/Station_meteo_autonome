@@ -6,8 +6,8 @@
 #include <WiFi.h>
 #include "FirebaseESP32.h"
 
-
-#define FIREBASE_HOST "firebase-adminsdk-lk3sa@stma-d42c3.iam.gserviceaccount.com" 
+//firebase-adminsdk-lk3sa@stma-d42c3.iam.gserviceaccount.com
+#define FIREBASE_HOST "stma-d42c3-default-rtdb.firebaseio.com" 
 #define FIREBASE_AUTH "HYBE0RjC17SjgmpIOFcSon4aWUYmFChwhSgPBq7z" 
 #define WIFI_SSID "YOUR_WIFI_SSID"
 #define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
