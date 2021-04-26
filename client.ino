@@ -57,5 +57,6 @@ void loop()
       myurl="/";
 
     }
+    delay(1000);
 
 }
