@@ -1,6 +1,6 @@
 #include <WiFi.h>
 
-WiFiServer server(9000);
+WiFiServer server(80);
 
 WiFiClient client;
 
@@ -68,6 +68,6 @@ void loop()
     client.println("</html>");
     client.stop();
     delay(1);
-    client.flush();
+   // client.flush();
 
 }
