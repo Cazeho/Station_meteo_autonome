@@ -11,7 +11,7 @@ Serial.begin(9600);
   WiFi.disconnect();
   delay(3000);
   Serial.println("START");
-  WiFi.begin("my-net","passwd");
+  WiFi.begin("stma","wpss7866");
   while ((!(WiFi.status() == WL_CONNECTED))){
     delay(300);
     Serial.print("..");
