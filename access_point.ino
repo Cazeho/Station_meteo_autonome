@@ -11,7 +11,7 @@ Serial.begin(9600);
 
   delay(3000);
   Serial.println("START");
-  WiFi.softAP("ssid","passwd");
+  WiFi.softAP("stma","wpss7866");
   Serial.println("ip of AP");
   Serial.println((WiFi.softAPIP()));
 
