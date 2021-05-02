@@ -31,7 +31,9 @@ https://www.ssls.com/knowledgebase/how-to-install-an-ssl-certificate-on-a-nginx-
 <br>
 
 <p>Install Nginx Server</p>
-<br>
 <code>
 apt install nginx
 </code>
+<br>
+
+
