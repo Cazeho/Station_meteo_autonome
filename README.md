@@ -27,8 +27,9 @@ https://docs.ovh.com/fr/hosting/passer-site-internet-https-ssl/#en-pratique
 https://www.ssls.com/knowledgebase/how-to-install-an-ssl-certificate-on-a-nginx-server/
 
 
-# VirtualBox Debian server
-
+# VirtualBox Debian Server
+<br>
+### Install Nginx Server
 <code>
-shdh
+apt install nginx
 </code>
