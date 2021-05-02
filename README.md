@@ -29,7 +29,9 @@ https://www.ssls.com/knowledgebase/how-to-install-an-ssl-certificate-on-a-nginx-
 
 # VirtualBox Debian Server
 <br>
-### Install Nginx Server
+
+## Install Nginx Server
+<br>
 <code>
 apt install nginx
 </code>
