@@ -38,4 +38,17 @@ apt install nginx
 </code>
 <br>
 
+# Reverse Proxy
+
+https://wiki.r-selfhosted.com/guides/reverse-proxy-servers/nginx/
+
+https://www.myip.com/
+
+https://www.linuxshelltips.com/install-nginx-in-linux/
+
+https://www.seektable.com/help/self-hosted-nginx-https
+
+https://www.youtube.com/watch?v=KvLj-TNXFDs
+
+
 
