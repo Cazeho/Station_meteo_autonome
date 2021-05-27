@@ -55,7 +55,7 @@ void loop()
     delay(500);
     signed char temp=-40+0.647*(byte)donnee;
 
-    if ((Firebase.setInt(firebaseData, "/temperature", ((byte)donnee))) == true) {
+    if ((Firebase.setInt(firebaseData, "/temperature", (temp))) == true) {
       Serial.println((byte)donnee);
 
     } else {
