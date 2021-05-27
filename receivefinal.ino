@@ -1,3 +1,12 @@
+#include <SoftwareSerial.h>
+ 
+SoftwareSerial mySerial(16, 17);
+
+
+int donnee = 0; // for incoming serial data
+
+
+
 #include <WiFi.h>
 
 #include <FirebaseESP32.h>
@@ -6,23 +15,9 @@
 #define FIREBASE_AUTH "HYBE0RjC17SjgmpIOFcSon4aWUYmFChwhSgPBq7z"
 FirebaseData firebaseData;
 
-
-
-
-
-
-
-
-
-
-#include <SoftwareSerial.h>
- 
-SoftwareSerial mySerial(16, 17);
-
-
-
-void setup() {
-  Serial.begin(9600);
+void setup()
+{
+Serial.begin(9600);
 
   WiFi.disconnect();
   delay(3000);
@@ -39,36 +34,43 @@ void setup() {
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
   Firebase.reconnectWiFi(true);
 
-  Serial.begin(9600); // opens serial port, sets data rate to 9600 bps
+
+
   mySerial.begin(1200);
   Serial.println("Hi, I'm going to receive message!");
- 
+
 }
 
-void loop() {
-  // send data only when you receive data:
-  if (mySerial.available()>0) {
+
+void loop()
+{
+
+    if (mySerial.available()) {
     // read the incoming byte:
-    
+    donnee = mySerial.read();
 
     // say what you got:
     Serial.print("I received: ");
-    Serial.println(int(mySerial.read()));
+    Serial.println((byte)donnee);
     delay(500);
-  
 
-     if ((Firebase.setInt(firebaseData, "/temperature", int(mySerial.read()))) == true) {
-      Serial.println("data send");
+
+    if ((Firebase.setInt(firebaseData, "/temperature", ((byte)donnee))) == true) {
+      Serial.println((byte)donnee);
 
     } else {
       Serial.println("error");
 
     }
 
+
+
+    
   }
+
+    
+
 }
-
-
 
 
 
