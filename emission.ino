@@ -1,3 +1,7 @@
+//code fonctionel 1
+
+
+
 /*
  * LoRa E22 
  * Start device or reset to send a message
