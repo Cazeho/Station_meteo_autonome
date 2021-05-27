@@ -1,3 +1,6 @@
+//code fonctionel 2
+
+
 #include <SoftwareSerial.h>
  
 SoftwareSerial mySerial(16, 17);
